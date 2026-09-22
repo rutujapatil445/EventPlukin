@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/bir"
+tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Header TextView -->
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="EventPluckin"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:background="#90000000"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:paddingTop="3dp"/>
+
+    <!-- Reception Themes TextView -->
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Birthday Themes"
+        android:textSize="25dp"
+        android:textColor="#803F2A"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you like any theme from this please contact us from click on Info button"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="15sp"
+        android:textColor="#737E4C"
+        />
+    <!-- CardViews Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <!-- First CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/img_1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1000/-"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="60dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Second CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/img_2"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1500/-"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="60dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <!-- Add more LinearLayouts with CardViews for additional rows -->
+    <!-- CardViews Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <!-- First CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/img_3"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3000/-"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="60dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Second CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/img_4"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2500/-"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="60dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <!-- CardViews Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <!-- First CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/img_5"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3500/-"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="60dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Second CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/img_6"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2570/-"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="60dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <!-- CardViews Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <!-- First CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/img_7"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3500/-"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="60dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Second CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/q"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="contact us"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="60dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

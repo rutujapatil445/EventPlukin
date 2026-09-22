@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/a">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our Event Management System. We are dedicated to providing excellent event planning services to our clients. Our team is passionate about creating memorable experiences for every event. Whether it's a corporate conference, wedding, or birthday party, we've got you covered!"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Contact Info -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:autoLink="email"
+        android:text="Email: rutupatil0122@gmail.com"
+        android:textColor="@color/material_dynamic_primary0"
+        android:textSize="16sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/emailTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:autoLink="email"
+        android:text="             biradarrutu1@gmail.com"
+        android:textColor="@color/material_dynamic_primary0"
+        android:textSize="16sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:autoLink="phone"
+        android:text="Phone: +918459184337"
+        android:textColor="@color/material_dynamic_primary0"
+        android:textSize="16sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/phoneTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:autoLink="phone"
+        android:text="              +917507247197"
+        android:textColor="@color/material_dynamic_primary0"
+        android:textSize="16sp"
+        tools:ignore="TouchTargetSizeCheck" />
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 123 Event Plaza, City, Country"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+</LinearLayout>

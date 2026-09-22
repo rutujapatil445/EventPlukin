@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="EventPluckin"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:background="#90000000"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:paddingTop="3dp" />
+
+        <ImageButton
+            android:id="@+id/birth"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:onClick="birth"
+            android:scaleType="centerCrop"
+            android:src="@drawable/birth"
+            tools:ignore="UsingOnClickInXml" />
+
+        <ImageButton
+            android:id="@+id/wedd"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:onClick="wedd"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wedd"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/engage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:onClick="engage"
+            android:scaleType="centerCrop"
+            android:src="@drawable/engga"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/reception"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:onClick="reception"
+            android:src="@drawable/reception"
+            android:layout_marginTop="30dp"/>
+        <ImageButton
+            android:id="@+id/bussiness"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:onClick="business"
+            android:src="@drawable/bussi"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

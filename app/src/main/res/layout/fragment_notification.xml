@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3E8F1"
+    tools:context=".NotificationFragment">
+
+  <ImageView
+      android:id="@+id/iv"
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:layout_marginTop="10dp"
+      android:src="@drawable/logo"
+      android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="EventPluckin"
+        android:textColor="@color/white"
+        />
+
+      <TextView
+          android:id="@+id/t2"
+          android:layout_width="200dp"
+          android:layout_height="50dp"
+          android:layout_below="@id/iv"
+          android:layout_marginTop="20dp"
+          android:text="See Event Location:"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:paddingTop="13dp"
+          android:paddingLeft="15dp"
+          android:textColor="#3C2470"
+          />
+
+    <ImageView
+        android:id="@+id/ib"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/t2"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/log"
+        android:scaleType="fitCenter"
+        />
+
+      <TextView
+          android:id="@+id/t3"
+          android:layout_width="200dp"
+          android:layout_height="50dp"
+          android:layout_below="@id/t2"
+          android:layout_marginTop="20dp"
+          android:text="Select Event Data:"
+          android:textSize="18dp"
+          android:textStyle="bold"
+          android:textColor="#3C2470"
+          android:paddingTop="13dp"
+          android:paddingLeft="15dp" />
+
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/t3"
+            android:layout_marginTop="310dp"
+            android:drawableLeft="@drawable/baseline_calendar_month_24"
+            android:paddingLeft="3dp"
+            android:text=""
+            android:hint="Date"
+            android:onClick="date"
+          />
+
+  <TextView
+      android:id="@+id/t5"
+      android:layout_width="290dp"
+      android:layout_height="50dp"
+      android:layout_below="@id/t4"
+      android:layout_marginTop="20dp"
+      android:paddingTop="13dp"
+      android:paddingLeft="15dp"
+      android:text="Enter how many days you want:"
+      android:textStyle="bold"
+      android:textSize="18dp"
+      android:textColor="#3C2470"
+      />
+
+   <EditText
+      android:id="@+id/e1"
+      android:layout_width="70dp"
+      android:layout_height="wrap_content"
+      android:hint="Days"
+      android:layout_toRightOf="@id/t5"
+      android:layout_marginTop="360dp"
+       android:inputType="number"
+
+    />
+
+  <Button
+      android:id="@+id/b"
+      android:layout_width="200dp"
+      android:layout_height="60dp"
+      android:layout_below="@id/t5"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="30dp"
+      android:text="Confirm Booking"
+      android:backgroundTint="#6F4083"
+      android:textSize="18dp"
+      android:textColor="#FBF8F8"
+      android:onClick="Book"
+    />
+
+  <TextView
+      android:id="@+id/t6"
+      android:layout_width="200dp"
+      android:layout_height="50dp"
+      android:hint="If any query and help: "
+      android:textColorHint="#63499A"
+      android:layout_below="@id/b"
+      android:layout_marginTop="10dp"
+      android:paddingTop="13dp"
+      android:paddingLeft="15dp"
+      android:textStyle="bold"
+      android:textSize="18dp"
+      android:textColor="#3C2470"
+      />
+
+  <TextView
+      android:id="@+id/t7"
+      android:layout_width="240dp"
+      android:layout_height="30dp"
+      android:text="Email: biradarrutuja125@gmail.com"
+      android:textColorHint="#364529"
+      android:layout_below="@id/t6"
+      android:layout_marginLeft="70dp"
+      android:textStyle="bold"
+      android:textSize="14dp"
+      android:textColor="#3C2470"
+      android:autoLink="email"
+      />
+
+  <TextView
+      android:id="@+id/t8"
+      android:layout_width="200dp"
+      android:layout_height="30dp"
+      android:layout_marginLeft="70dp"
+      android:text="Contact: 8459184337"
+      android:textColorHint="#364529"
+      android:layout_below="@id/t7"
+      android:textStyle="bold"
+      android:textSize="14dp"
+      android:textColor="#3C2470"
+      android:autoLink="phone"
+      />
+
+
+</RelativeLayout>
